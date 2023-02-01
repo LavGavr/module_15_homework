@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f5f5;
+}
+    .hide {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+    
+    .btn-main {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    background: rgb(105, 230, 80);
+    border: none;
+    box-shadow: 2px 2px 2px rgb(226, 107, 107);
+}
+    .btn-main:hover {
+    background: rgb(228, 243, 25);
+    cursor: pointer;
+}
+    .btn-main > span {
+    font-size: 20px;
+    color: rgb(37, 83, 233);
+}

@@ -1,0 +1,99 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    flex-direction: column;
+    margin-top: 0px;
+}
+    textarea {
+    resize: none;
+}
+    
+    h1 {
+        text-align: center;
+    margin-bottom: 20px;
+    color: rgb(50, 192, 197);
+}
+    
+    .chat-box {
+    width: 490px;
+    height: 400px;
+    background: #ece9e9;
+    box-shadow: 2px 2px 10px 1px #333;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+    
+    .section-btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+    
+    .input-text {
+    height: 40px;
+    border: 3px solid rgb(162, 128, 218);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+    
+    .input-text::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+    .input-text:focus {
+    outline-color: rgb(76, 163, 163);
+}
+    .btn-send {
+    background-color: rgb(145, 91, 233);
+    border: none;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #fafafa;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+}
+    
+    .btn-send:hover {
+    background-color: rgb(57, 92, 109);
+}
+    
+    .text-area-chat {
+    display: flex;
+    justify-content: center;
+}
+    .area {
+    padding: 10px;
+    background: rgb(253, 251, 251);
+    width: 420px;
+    height: 300px;
+    border-radius: 5px;
+    border: 3px solid rgb(135, 77, 153);
+}
+    
+    .wrap-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(96, 143, 230);
+    border: 3px solid rgb(100, 145, 197);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 240px;
+}
+    
+    .wrap-message > span {
+    font-size: 18px;
+    color: #d8e7e7;
+}
